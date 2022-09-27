@@ -3,7 +3,23 @@ Style the paragraphs: use a Serif font, increase the spacing a little, use a bas
 Style links so that they are easily readable.
 Style the "hover" and "visited" state of the links.
 */
+*{
+    margin-top: 10px;
 
+}
+body{
+    max-width: 90%;
+    margin-left: 75px;
+    margin-right: 10px;
+    line-height: 1.6;
+    /* background: -webkit-linear-gradient(-100deg, rgb(222, 162, 162), rgb(241, 193, 199));
+    background: linear-gradient(-100deg, rgb(222, 162, 162), rgb(241, 193, 199)); */
+    background-image: url(https://wallpaperaccess.com/full/1660008.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(5, 68, 58);
@@ -15,10 +31,15 @@ h3, h4{
     color: rgb(5, 68, 58);
     font-size: 22px;
 }
-p{
+p, span{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkslateblue;
     font-size: 20px;
+    
+}
+blockquote{
+    margin: 5px;
+    padding: 5px;
 }
 a:link{
     color: black;
@@ -43,4 +64,23 @@ ul{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkslateblue;
     font-size: 20px;
+}
+.dialogue{
+   /*background-color: aqua;*/
+   margin-left: 350px;
+   margin-right: 250px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   line-height: 2;
+   font-size: 160%;
+   background-color: rgb(196, 192, 192);
+   border-style: solid;
+   border-right: none;
+   border-bottom: none;
+   border-top: none;
+   border-color: firebrick;
+   border-width: 3px;
+   padding-left: 30px;
+   padding-right: 30px;
+   
 }
