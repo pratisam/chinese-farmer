@@ -14,8 +14,9 @@ body{
     line-height: 1.6;
     /* background: -webkit-linear-gradient(-100deg, rgb(222, 162, 162), rgb(241, 193, 199));
     background: linear-gradient(-100deg, rgb(222, 162, 162), rgb(241, 193, 199)); */
-    background-image: url(https://wallpaperaccess.com/full/1660008.png);
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/12/08/detailed-watercolour-texture-background-vector-26961208.jpg);
     background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
 
     
@@ -67,7 +68,8 @@ ul{
 }
 .dialogue{
    /*background-color: aqua;*/
-   margin-left: 350px;
+   margin-left: 250px;
+   text-indent: 250px;
    margin-right: 250px;
    margin-top: 80px;
    margin-bottom: 80px;
@@ -83,4 +85,12 @@ ul{
    padding-left: 30px;
    padding-right: 30px;
    
+}
+#farmer{
+   border-color: rgba(3, 121, 19, 0.712);
+
+}
+
+span.dialogue{
+    font-style: italic;
 }
