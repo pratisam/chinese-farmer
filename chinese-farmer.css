@@ -21,6 +21,10 @@ body{
 
     
 }
+header>h1{
+    background-color: yellow;
+    text-indent: 350px;
+}
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(5, 68, 58);
@@ -70,7 +74,7 @@ ul{
    /*background-color: aqua;*/
    margin-left: 250px;
    text-indent: 250px;
-   margin-right: 250px;
+   margin-right: 450px;
    margin-top: 80px;
    margin-bottom: 80px;
    line-height: 2;
@@ -84,6 +88,7 @@ ul{
    border-width: 3px;
    padding-left: 30px;
    padding-right: 30px;
+   font-style: italic;
    
 }
 #farmer{
@@ -91,6 +96,52 @@ ul{
 
 }
 
-span.dialogue{
-    font-style: italic;
+.bad{
+    text-transform: capitalize;
+    font-size: 100%;
+    color: red;
 }
+.good{
+    text-transform: capitalize;
+    font-size: 100%;
+    color: green;
+}
+
+tr:nth-child(even) {
+    background: rgb(243, 128, 128)
+}
+tr:nth-child(odd) {
+    background: rgb(167, 141, 141)
+}
+th{
+    background: rgb(10, 10, 10)
+
+}
+ul{
+    line-height: 2.5;
+}
+li:nth-child(1){
+    background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09/main/1.The-Field/03-Front-end-101/bien.png?token=GHSAT0AAAAAABZCNX3QAMDLAQXIIAOO2EEIYZUFOSQ);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* border: solid black; */
+    padding-right: 2px;
+    max-width: 380px;
+}
+li:nth-child(2){
+    background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09/main/1.The-Field/03-Front-end-101/mal.png?token=GHSAT0AAAAAABZCNX3QQDWW63NJFC7QW2IWYZUFY3A);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* border: solid black; */
+    padding-right: 2px;
+    max-width: 380px;
+}
+li:nth-child(3){
+    background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09/main/1.The-Field/03-Front-end-101/chat.png?token=GHSAT0AAAAAABZCNX3QFT5PNWBAWTJLYAG6YZUF4ZQ    );
+    background-repeat: no-repeat;
+    background-position: right;
+    /* border: solid black; */
+    padding-right: 2px;
+    max-width: 380px;
+}
+
